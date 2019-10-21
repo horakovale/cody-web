@@ -1,0 +1,88 @@
+body {
+    color: #282425;
+    background-color: #fff1e6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: #756158;
+    font-family: 'Playfair Dysplay', serif;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.fotogalerie {
+    background-color: #f9e3d0;
+}
+
+.paticka {
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.foto-omne {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.fotogalerie img {
+    width: 32%;
+    border: 2px solid #756158;
+    border-radius: 10px;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+section.omne {
+    text-align: justify;
+}
+
+.hlavicka {
+    background-color: #f9e3d0;
+    padding: 50px 20px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #282425;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus {
+    background-color: #756158;
+}
